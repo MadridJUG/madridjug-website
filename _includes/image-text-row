@@ -30,7 +30,7 @@
             </div>
             <div class="itr-image-container">
                 {% if itr.date %}
-                    <h3>&nbsp;</h3>
+                    &nbsp;
                 {% endif %}
                 {% if itr.header %}
                     <br>
