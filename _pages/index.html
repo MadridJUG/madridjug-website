@@ -40,15 +40,16 @@ header:
 excerpt: "**Tu grupo de desarrolladores y entusiastas de Java y la JVM**"
 
 comming-up-row-one:
-    - header: "Profundizando en el uso de Parquet en Java con Carpet"
+    - header: "Stack Allocation y Otros Monstruos"
       date: 9 de Octubre de 2024
-      excerpt: "Después de la <a href='https://www.youtube.com/watch?v=4TvNngGg0zg'>introducción sobre el uso de ficheros Parquet en Java</a> de la temporada pasada, esta vez profundizamos más en el tema presentando la librería Carpet. Proyecto Open Source que reduce a cero la complejidad de trabajar con ficheros Parquet en aplicaciones Java, y lo convierte en una potente alternativa como formato de intercambio de datos habituales en el mundo Backend, como JSON o CSV.
-      Jero nos contará porqué creó la herramienta, sus funcionalidades y el impacto de la librería en Clarity AI, y cómo cambió las dinámicas de trabajo con los equipos de Data Engineering."
-      btn-url: "https://www.meetup.com/es-ES/madridjug/events/303648415/"
+      excerpt: "Casi todas las JVM actuales tienen alguna forma de stack allocation, particularmente una variante llamada scalar replacement.<br/>
+      Esta optimización se suele presentar como una forma de mejorar el rendimiento de nuestro programa, sobre todo al reducir la cantidad de basura generada. Pero aprovechada adecuadamente sirve para mucho más: para construir programas mejores sin afectar (casi) al rendimiento.<br/>
+      Tras una explicación de los fundamentos del stack allocation, pasaremos a ver algunos ejemplos reales. Y eso nos llevará a hablar de otras optimizaciones, de cómo se conjugan, de dónde están sus límites y de algún truco para saltar parte de esos límites."
+      btn-url: "https://www.meetup.com/madridjug/events/304107149/"
       btn-class: "info"
       btn-label: "Registro"
       blank: true
-      image-url: "assets/images/20241009-Parquet-Carpet.png"
+      image-url: "assets/images/20241030-StackAllocation.png"
       alt-text: "Cartel anunciando el evento"
       image-width: "500px"
       image-right: true
