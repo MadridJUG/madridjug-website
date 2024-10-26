@@ -1,0 +1,22 @@
+.session-description {
+    overflow: hidden;
+    position: relative;
+}
+
+.session-description h3 {
+    margin-top: 0em;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* Show only the first few lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.session-description p {
+    display: -webkit-box;
+    -webkit-line-clamp: 7; /* Show only the first few lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
