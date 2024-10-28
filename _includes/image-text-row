@@ -55,7 +55,6 @@
         {% endif %}
     </div>
 
-    {% endif %}
 
     {% unless forloop.last %}<hr />{% endunless %}
 
