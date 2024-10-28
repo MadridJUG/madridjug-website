@@ -1,0 +1,66 @@
+.page-a-day-calendar {
+    float:none;
+    margin: 2em;
+  }
+  
+  time.icon
+  {
+    font-size: 1em; /* change icon size */
+    display: block;
+    position: relative;
+    width: 6em;
+    height: 6em;
+    background-color: #fff;
+    border-radius: 0.5em;
+    box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+    overflow: hidden;
+  }
+  
+  time.icon *
+  {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+  }
+  
+  time.icon strong
+  {
+    position: absolute;
+    top: 0;
+    padding: 0.2em 0;
+    font-size: 0.9em;
+    color: #fff;
+    background-color: $primary-color;
+    border-bottom: 1px dashed $primary-color;
+    box-shadow: $box-shadow;
+  }
+  
+  time.icon em
+  {
+    font-size: 0.7em;
+    position: absolute;
+    top: 2.7em; 
+    color: $primary-color;
+  }
+  
+  time.icon span
+  {
+    font-size: 2em;
+    letter-spacing: -0.05em;
+    padding-top: 1.1em;
+    color: #2f2f2f;
+  }
+  
+  time.icon bold {
+    font-size: 0.8em;
+    position: absolute;
+    bottom: 0.2em;
+    color: $gray
+  }
+  
+  .icon:hover {
+    background-color: $lighter-gray
+  }

@@ -1,0 +1,16 @@
+
+{% assign days = "domingo,lunes,martes,miércoles,jueves,viernes,sábado" | split: "," %}
+{% assign months = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
+
+{% assign day_idx = date | date: "%w" | plus: 0 %}
+{% assign day_name = days[day_idx] %}
+{% assign month_idx = date | date: "%-m" | minus: 1 %}
+{% assign month_name = months[month_idx] %}
+<div class="page-a-day-calendar">
+    <time datetime="{{ date | date: "%Y-%m-%d" }}" class="icon">
+        <em>{{ day_name | capitalize }}</em>         <!-- Day of the week (e.g., "Wednesday") -->
+        <strong>{{ month_name | capitalize }}</strong> <!-- Month name (e.g., "October") -->
+        <span>{{ date | date: "%-d" }}</span>    <!-- Day of the month without leading zeros (e.g., "30") -->
+        <bold>{{ date | date: "%Y" }}</bold>     <!-- Year (e.g., "2024") -->
+    </time>    
+</div>
