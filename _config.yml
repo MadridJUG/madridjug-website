@@ -42,13 +42,17 @@ footer:
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/company/madridjug/"
       blank: true
-    - label: "X/Twitter"
-      icon: "fab fa-x-twitter"
-      url: "https://x.com/madridJUG"
-      blank: true
     - label: "Mastodon"
       icon: "fab fa-mastodon"
       url: "https://jvm.social/@madridJUG"
+      blank: true
+    - label: "Bluesky"
+      icon: "fab fa-bluesky"
+      url: "https://bsky.app/profile/madridjug.bsky.social"
+      blank: true
+    - label: "X/Twitter"
+      icon: "fab fa-x-twitter"
+      url: "https://x.com/madridJUG"
       blank: true
     - label: "YouTube"
       icon: "fab fa-youtube"
