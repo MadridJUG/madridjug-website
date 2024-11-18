@@ -48,7 +48,7 @@ footer:
       blank: true
     - label: "Bluesky"
       icon: "fab fa-bluesky"
-      url: "https://bsky.app/profile/madridjug.bsky.social"
+      url: "https://bsky.app/profile/madridjug.es"
       blank: true
     - label: "X/Twitter"
       icon: "fab fa-x-twitter"
